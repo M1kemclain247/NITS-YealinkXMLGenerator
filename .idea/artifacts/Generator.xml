@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Generator">
+    <output-path>C:/Development/Gen 2.0</output-path>
+    <root id="archive" name="Generator.jar">
+      <element id="module-output" name="NITS-YealinkXMLGenerator" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/sf/supercsv/super-csv/2.1.0/super-csv-2.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
