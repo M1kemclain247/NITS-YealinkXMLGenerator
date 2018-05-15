@@ -54,7 +54,7 @@ public class XmlFileGenerator
                 for (int i = 0; i < numbers.length; i++)
                 {
                     Element lastname = doc.createElement("Telephone");
-                    lastname.appendChild(doc.createTextNode(numbers[i]));
+                    lastname.appendChild(doc.createTextNode(numbers[i].trim()));
                     staff.appendChild(lastname);
                 }
                 rootElement.appendChild(staff);
