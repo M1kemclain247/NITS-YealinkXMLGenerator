@@ -1,0 +1,5 @@
+com\m1kes\nits\objects\Extension.class
+com\m1kes\nits\Main.class
+com\m1kes\nits\storage\XmlFileGenerator.class
+com\m1kes\nits\parsers\CsvParser.class
+com\m1kes\nits\utils\CoreUtils.class

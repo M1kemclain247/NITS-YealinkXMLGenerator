@@ -1,42 +1,42 @@
 package com.m1kes.nits.objects;
 
 
-public class Extension
-{
+import java.util.List;
+
+public class Extension {
     private String name;
-    private String number;
+    private List<String> numbers;
 
-    public Extension() {}
-
-    public Extension(String name, String number)
-    {
-        this.name = name;
-        this.number = number;
+    public Extension() {
     }
 
-    public String getName()
-    {
+    public Extension(String name, List<String> numbers) {
+        this.name = name;
+        this.numbers = numbers;
+    }
+
+    public String getName() {
         return this.name;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getNumber()
-    {
-        return this.number;
+    public List<String> getNumbers() {
+        return numbers;
     }
 
-    public void setNumber(String number)
-    {
-        this.number = number;
+    public void setNumbers(List<String> numbers) {
+        this.numbers = numbers;
     }
 
-    public String toString()
-    {
-        return "Extension{name='" + this.name + '\'' + ", number='" + this.number + '\'' + '}';
+    @Override
+    public String toString() {
+        return "Extension{" +
+                "name='" + name + '\'' +
+                ", numbers=" + numbers +
+                '}';
     }
 }
 

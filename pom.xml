@@ -17,19 +17,19 @@
 
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/net.sf.supercsv/super-csv -->
-        <dependency>
-            <groupId>net.sf.supercsv</groupId>
-            <artifactId>super-csv</artifactId>
-            <version>2.1.0</version>
-        </dependency>
-
         <!-- json -->
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.5</version>
+        </dependency>
+
     </dependencies>
 
     <build>
