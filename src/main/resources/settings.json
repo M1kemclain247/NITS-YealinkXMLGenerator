@@ -1,6 +1,6 @@
 {
   "export-options": {
-    "inputFile": "C:/Development/My Stuff/input.csv",
-    "outputFolder": "C:/Development/My Stuff/"
+    "inputFile": "input.csv",
+    "outputFolder": "Exports"
   }
 }

@@ -28,10 +28,12 @@ public class CsvParser {
                 List<String> numbers = new ArrayList<>();
                 for (int i = 0; i < csvRecord.size(); i++) {
 
+                    String data = csvRecord.get(i).trim().replace(";","");
+
                     if (i == 0) {
-                        name = csvRecord.get(i);
+                        name = data;
                     } else {
-                        numbers.add(csvRecord.get(i));
+                        numbers.add(data);
                     }
 
                 }
